@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="coffee_shop">Coffee Shop</string>
+    <string name="get_started">Начать</string>
+    <string name="sign_up">Зарегестрироваться</string>
+    <string name="sign_in">Войти</string>
+    <string name="cappuccino">Капучино</string>
+    <string name="americano">Американо</string>
+    <string name="frappuccino">Фраппучино</string>
+    <string name="cocktail">Коктейль</string>
+    <string name="info">Кофе арабика - это горячий напиток, имеющий бодрящий, терпкий вкус. Иногда в нем есть горчинка.
+        Терпкий молотый кофе традиционной или неклассической зажарки позволяет илюдям проснуться, получить большую дозу кофеина и зарядиться бодростью на весь остаток дня.
+    </string>
+    <string name="price">$5</string>
+    <string name="order">Заказать</string>
+    <string name="test">Количество</string>
+    <string name="priceText">Итог</string>
+    <string name="toppings">Сиропы</string>
+    <string name="vanilla">Ванильный</string>
+    <string name="chocolate">Шоколадный</string>
+    <string name="caramel">Карамельный</string>
+    <string name="add">+</string>
+    <string name="remove">-</string>
+    <string name="amount">1</string>
+    <string name="number">Номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="rememberme">Запомнить меня</string>
+    <string name="signout">Выйти</string>
+</resources>

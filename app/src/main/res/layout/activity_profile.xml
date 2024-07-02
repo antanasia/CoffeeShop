@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD1B3"
+    tools:context=".Profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/coffee_shop"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/coffeebean"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:src="@drawable/coffeebeans" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp">
+
+            <ImageView
+                android:id="@+id/west"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_west_24">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+
+            <ImageView
+                android:id="@+id/list"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_baseline_view_headline_24">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/signout"
+        android:layout_marginTop="660dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

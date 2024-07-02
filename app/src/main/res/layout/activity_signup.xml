@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD1B3"
+    tools:context=".Signin">
+
+    <TextView
+        android:id="@+id/shopname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/coffee_shop"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:id="@+id/coffeebean"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@+id/shopname"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/coffeebeans" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/coffeebean"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/username"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/number_signup"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/username"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="phone"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/number_signup"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="@string/sign_up"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

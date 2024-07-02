@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD1B3"
+    tools:context=".Signin">
+
+    <TextView
+        android:id="@+id/shopname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/coffee_shop"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:id="@+id/coffeebean"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@+id/shopname"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/coffeebeans" />
+
+    <EditText
+        android:id="@+id/number_signin"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/coffeebean"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/password_signin"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/number_signin"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/rememberme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_signin"
+        android:layout_margin="10dp"
+        android:text="@string/rememberme"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        style="@style/Material.Drawable.CheckBox"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="@string/sign_in"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>
